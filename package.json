@@ -1,0 +1,25 @@
+{
+  "name": "frontendchallenge",
+  "version": "4.0.0",
+  "private": true,
+  "dependencies": {
+    "@apollo/client": "^3.3.16",
+    "@emotion/cache": "latest",
+    "@emotion/react": "latest",
+    "@emotion/server": "latest",
+    "@emotion/styled": "latest",
+    "@material-ui/core": "next",
+    "clsx": "latest",
+    "graphql": "^15.5.0",
+    "next": "latest",
+    "prop-types": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "post-update": "echo \"codesandbox preview only, need an update\" && yarn upgrade --latest"
+  }
+}
