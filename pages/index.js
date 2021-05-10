@@ -10,14 +10,14 @@ import { gql, useQuery } from "@apollo/client";
 const GET_GREETING = gql`
   query GetCountries {
     countries {
-      
+      currency
     }
   }
 `;
 
 export default function Index() {
   const { loading, error, data } = useQuery(GET_GREETING);
-  
+
   if (loading) {
     return (
       <Container maxWidth="sm">
